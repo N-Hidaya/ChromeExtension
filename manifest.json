@@ -1,0 +1,18 @@
+{
+    "name": "hangeul",
+    "short_name" : "hangeul",
+    "version": "0.1",
+    "description": "Opening a new tab shows new korean idiom",
+    "icons": { "16": "pictures/icon16pix.png",
+               "48": "pictures/icon48pix.png",
+               "128": "pictures/icon128pix.png"
+             },
+    "manifest_version": 2,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "web_accessible_resources": [
+        "data.json"
+    ]
+    
+}

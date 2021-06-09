@@ -1,0 +1,16 @@
+body {
+    color: white;
+    font-size: 40px;
+    overflow: hidden; /*Hide scrollbars*/
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
